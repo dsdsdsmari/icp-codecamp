@@ -21,22 +21,30 @@ body {
     border-bottom: 2px solid #0066cc;
 }
 
-.header .profile {
-    margin-bottom: 20px;
+.profile-info {
+    display: flex;
+    align-items: center;
 }
 
-.header .name {
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px; 
+}
+
+.name-container .name {
     font-size: 36px;
     font-weight: bold;
     color: #003366;
 }
 
-.header .job-title {
+.name-container .job-title {
     font-size: 20px;
     color: #0066cc;
 }
 
-.header .location {
+.name-container .location {
     font-size: 16px;
     color: #4d94ff;
 }
