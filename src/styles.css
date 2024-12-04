@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f9ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    padding: 20px;
+}
+
+.header {
+    text-align: left;
+    padding: 40px 0;
+    border-bottom: 2px solid #0066cc;
+}
+
+.header .profile {
+    margin-bottom: 20px;
+}
+
+.header .name {
+    font-size: 36px;
+    font-weight: bold;
+    color: #003366;
+}
+
+.header .job-title {
+    font-size: 20px;
+    color: #0066cc;
+}
+
+.header .location {
+    font-size: 16px;
+    color: #4d94ff;
+}
+
+.main-content {
+    margin-top: 30px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #003366;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-list li {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px; 
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.skills-list li:hover {
+    background-color: #005bb5; 
+}
+
+.relevant-experience .experience-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #e6f2ff;
+    border-radius: 5px;
+}
+
+.relevant-experience .experience-item h3 {
+    font-size: 20px;
+    color: #003366;
+}
+
+.relevant-experience .experience-item p {
+    font-size: 16px;
+    color: #0073e6;
+}
+
+.contact a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.goals, .plans {
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.goals ul, .plans ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.goals li, .plans li {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    background-color: #e6f2ff;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.goals li:hover, .plans li:hover {
+    background-color: #f0f8ff;
+}
+
+.goals li {
+    color: #003366;
+}
+
+.plans li {
+    color: #003366;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-left: 0;
+    }
+
+    .skills-list li {
+        padding: 8px 16px;
+    }
+}
